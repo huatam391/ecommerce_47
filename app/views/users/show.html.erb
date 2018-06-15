@@ -19,7 +19,7 @@
             <br>
             <i class="glyphicon glyphicon-globe"></i> <%= @user.country %>
           </p>
-          <%= link_to t(".edit_profile"), edit_user_path, class: "btn btn-primary" %>
+          <%= link_to t(".edit_profile"), edit_user_path(@user), class: "btn btn-primary" %>
       </div>
     </div>
   </div>
